@@ -2,7 +2,7 @@ server:
   port: 8761
 eureka:
   client:
-    fetch-registry: false
+    fetch-registry: true
     register-with-eureka: false
     service-url:
       defualt-zone: http://${eureka.instance.hostname}:${server.port}/eureka/
